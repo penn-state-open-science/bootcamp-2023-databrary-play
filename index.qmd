@@ -1,0 +1,124 @@
+---
+title: "Sharing identifiable video"
+subtitle: "Databrary & the PLAY Project"
+author: "Rick Gilmore"
+date: "`r Sys.Date()`"
+bibliography: include/bib/refs.bib
+csl: include/bib/apa.csl
+css: include/css/styles.css
+format:
+  revealjs:
+      theme: simple
+      # “simple”, “dark”, “black”, “sky”, “beige”, “serif”, “solarized”, “blood”, “moon”, “night”, “league”, or “white”
+      highlight: default
+      # “default”, “tango”, “pygments”, “kate”, “monochrome”, “espresso”, “zenburn”, “haddock”, or “breezedark”
+      center: false
+      transition: fade
+      # “convex”, “fade”, “slide”, “concave”, “zoom”, or “none”
+      background_transition: none
+      # “convex”, “fade”, “slide”, “concave”, “zoom”, or “none”
+      fig_width: 7
+      fig_height: 5
+      fig_caption: true
+      reveal_options:
+        controls: true
+        controlsLayout: 'bottom-right'
+        # "edges" or "bottom-right"
+        controlsBackArrows: 'faded'
+        # "faded", "hidden", or "visible"
+        loop: false
+        progress: true
+        slideNumber: true
+        previewLinks: false
+---
+
+# The challenge
+
+---
+
+- Video is a powerful tool for 
+    - documenting behavior
+    - describing research procedures
+- Images/video of people pose risks of identification
+
+## (One) solution
+
+![](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/49647129/original/50b3952f2fcb3e81874e1aca222281240d11b934/blur-faces-objects-brands-or-anything-else-in-your-video.png)
+---
+
+- Altering images/video is time/resource consuming
+- Makes images/video less valuable for reuse by others
+- Might pose risks to participants (if using external/commercial service)
+
+## (A better) solution
+
+- Share with *researchers* not the public
+    - Researchers with ethics training
+    - Researchers subject to institutional supervision
+- Share with participant permission
+
+## {data-background-iframe="https://databrary.org/"}
+
+---
+
+Video data library for researchers in the behavioral sciences</br></br>
+
+. . .
+
+Restricted access data repository</br></br>
+
+. . .
+
+Housed at NYU; staff at NYU & PSU</br></br>
+
+. . .
+
+World's only repository dedicated to storing and sharing video/audio and other identifiable data</br></br>
+
+. . .
+
+Accessible via [R](https://databrary.github.io/databraryr) and Python packages for reproducible workflows
+
+## {data-background-iframe="https://databrary.github.io/analytics/weekly.html"}
+
+---
+
+![](include/img/databrary-map-2023-07-19.png)
+
+```{r, fig.cap="Map of Databrary-authorizing institutions as of 2023-02-22."}
+knitr::include_graphics("include/img/databrary-inst-map-2023-02-22.png")
+```
+
+## {data-background-iframe="https://databrary.org/support/irb/release-levels.html"}
+
+# Why share images & video?
+
+---
+
+![](include/img/gilmore-adolph-nat-hum-beh-2017.png)
+
+## Images and video are essential to the study of *behavior*
+
+## {data-background-video="https://www.anhourinthelife.org/img/PLAY-parents-noaudio.mp4"}
+
+## Play & Learning Across a Year (PLAY) Project
+
+[https://play-project.org](https://play-project.org)
+
+</br></br>
+1 hour of natural behavior in the home</br></br>
+Mothers & 12-, 18-, and 24-month-old infants</br></br>
+Health, vocabulary, temperament, [demographic measures](https://PLAY-behaviorome.github.io/KoBoToolbox/)</br></br>
+
+# More?
+
+## Let's talk!
+
+
+
+. . .
+
+All protocols openly shared and documented on **video**.
+
+## {data-background-iframe="https://www.play-project.org/collection.html"}
+

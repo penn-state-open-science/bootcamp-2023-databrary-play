@@ -1,0 +1,10 @@
+.reveal .csl-entry {
+  text-align: left;
+  font-size: 60%;
+  text-indent: -1em;
+}
+
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
